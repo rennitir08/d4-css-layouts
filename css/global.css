@@ -8,30 +8,107 @@ body {
     padding: 30px;
 }
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+ max-width: 960px;
+ margin: 0 auto;
+}
+.navBar {
+ padding: 10px 10px 10px 0px;
+ font-family: Arial;
+}
+a {
+ text-decoration: none;
+}
+.imageHeader {
+ background-image: url(../img/background.jpg);
+ padding: 2px;
+ margin-right: 20px;
+ flex: 1;
+ height: 300px;
+}
+.textEffect {
+ font-family: Arial;
+ font-size: 40px;
+ text-align: center;
+ margin-top: 100px;
+ color: white;
+ text-shadow: 1px 1px #000000;
 }
 .row {
-    display: flex;
+ display: flex;
 }
 .columnRow {
-background-color: darkblue;    
+ background-color:rgb(247, 247, 247);
+ font-family: sans-serif; 
+ text-align:center; 
+ padding: 8px; 
+ color: #445063;
+ font-size: 12px;
+ border: 1px solid rgb(224, 224, 224);
+}
+.greenRow {
+ background-color: rgb(81, 146, 81);
+ padding: 10px;
+ text-align: center;
+ font-family: Arial;
+ color: white;
+ font-size: 15px;
+}
+.blueRow {
+ background-color: rgb(51, 79, 137);
+ text-align: center;
+ padding: 10px;
+ font-family: Arial;
+ color: white;
+ font-size: 15px;
+}
+.blackRow {
+ background-color: black;
+ text-align: center;
+ padding: 10px;
+ font-family: Arial;
+ color: white;
+ font-size: 15px;
+}
+.bigFont {
+ font-size:50px;
 }
 .column {
-flex: 3;
-padding: 2px;
-margin-right: 20px;
-background-color: gray;
-}
-.imageheader {
-flex: 3;
-padding: 2px;
-margin-right: 20px;
-background-color:pink;
+ flex: 3;
+ padding: 1px;
+ margin-right: 20px;
+ border: 1px gray;
+ font-size: 11px;
+
 }
 .whiteRow {
  flex: 1;
-padding: 2px;
-margin-right: 20px;
-background-color: white;   
+ padding: 2px;
+ margin-right: 20px;
+ background-color: white;   
+}
+.hiddenRow {
+    visibility: hidden;
+}
+.lastRow {
+    background-color: black;
+    padding: 2px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.choose {
+    background-color: white;
+    font-family: sans-serif;
+}
+.column-bordered {
+    border: 1px solid rgb(224, 224, 224);
+}
+button {
+    background: white;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 5px;
+    border-radius: 110px;
+    font-family: arial;
+    font-weight: bold;
 }
