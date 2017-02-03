@@ -52,7 +52,7 @@ body {
 }
 .greenRow {
  background-color: rgb(81, 146, 81);
- padding: 10px;
+ padding: 25px;
  text-align: center;
  font-family: Arial;
  color: white;
@@ -61,7 +61,7 @@ body {
 .blueRow {
  background-color: rgb(51, 79, 137);
  text-align: center;
- padding: 10px;
+ padding: 25px;
  font-family: Arial;
  color: white;
  font-size: 15px;
@@ -69,7 +69,7 @@ body {
 .blackRow {
  background-color: black;
  text-align: center;
- padding: 10px;
+ padding: 25px;
  font-family: Arial;
  color: white;
  font-size: 15px;
