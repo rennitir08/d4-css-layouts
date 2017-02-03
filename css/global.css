@@ -12,12 +12,16 @@ body {
  margin: 0 auto;
 }
 .navBar {
- padding: 10px 10px 10px 0px;
+ padding: 10px 30px 10px 0px;
  font-family: Arial;
- font-size: 11px;
+ font-size: 12px;
 }
-a {
+.navBar > a {
  text-decoration: none;
+ color: gray;
+}
+.navBar > a:hover {
+    color: black;
 }
 .imageHeader {
  background-image: url(../img/background.jpg);
@@ -70,6 +74,9 @@ a {
  color: white;
  font-size: 15px;
 }
+.fade {
+    opacity: 0.4;
+}
 .bigFont {
  font-size:50px;
 }
@@ -95,20 +102,20 @@ a {
     padding: 10px;
     margin-right: 20px;
     font-family: sans-serif;
-    color: white;
+    color: gray;
     text-align: center;
     font-size: 10px;
     border-bottom-right-radius:1em;
     border-bottom-left-radius: 1em;
 }
+.lastRow > a {
+    color: white;
+}
 .choose {
     background-color: white;
     font-family: sans-serif;
 }
-.column-bordered {
-    top-border: 1px solid rgb(224, 224, 224);
-}
-button {
+.choose > button {
     background: white;
     border: 1px solid rgb(224, 224, 224);
     padding: 5px;
@@ -120,7 +127,8 @@ button {
     font-family: sans-serif;
     font-size: 12px;
     font-weight: bold;
-    padding: 5px;
+    padding: 0px 10px 10px 0px;
+    letter-spacing: 2.5px;
 }
 .need-space {
     margin:0px 0px 0px 100px;
